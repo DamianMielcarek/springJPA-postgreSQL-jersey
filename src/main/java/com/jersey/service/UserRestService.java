@@ -37,7 +37,7 @@ public class UserRestService {
         user2.setId(2);
         user2.setFirstName("Louis");
         user2.setLastName("Lopez");
-        
+
         INMEMORYDB.put(user1.getId(), user1);
         INMEMORYDB.put(user2.getId(), user2);
     }
