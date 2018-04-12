@@ -9,8 +9,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class SpringJpaPostgreSqlJerseyApplicationTests {
 
-	@Test
-	public void contextLoads() {
-	}
-
+  @Test
+  public void contextLoads() {}
 }

@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringJpaPostgreSqlJerseyApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringJpaPostgreSqlJerseyApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(SpringJpaPostgreSqlJerseyApplication.class, args);
+  }
 }

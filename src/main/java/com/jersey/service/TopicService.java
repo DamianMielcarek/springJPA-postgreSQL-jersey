@@ -6,10 +6,13 @@ import com.jersey.entities.Topic;
 
 public interface TopicService {
 
-    List<Topic> getAllTopices();
-    Topic getTopicById(int topicId);
-    boolean addTopic(Topic topic);
-    void updateTopic(Topic topic);
-    void deleteTopic(int topicId);
+  List<Topic> getAllTopices();
 
+  Topic getTopicById(int topicId);
+
+  boolean addTopic(Topic topic);
+
+  void updateTopic(Topic topic);
+
+  void deleteTopic(int topicId);
 }
