@@ -1,0 +1,17 @@
+<button (click)="logTopics()">Kliknięcie</button>
+
+<table *ngIf="topicsList">
+  <tbody>
+    <tr *ngFor="let topic of topicsList">
+      <td>
+        {{topic.topicId}}
+      </td>
+      <td>
+        {{topic.title}}
+      </td>
+      <td>
+        {{topic.category}}
+      </td>
+    </tr>
+  </tbody>
+</table>
