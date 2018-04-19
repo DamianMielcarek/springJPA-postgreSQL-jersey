@@ -14,9 +14,8 @@ import com.jersey.service.UserRestService;
 @Configuration
 public class JerseyConfig extends ResourceConfig {
 
-    public JerseyConfig() {
-        register(UserRestService.class);
-        register(TopicJerseyRestService.class);
-    }
-
+  public JerseyConfig() {
+    register(UserRestService.class);
+    register(TopicJerseyRestService.class);
+  }
 }
